@@ -20,9 +20,19 @@
 
 ## Estrutura do Repositório
 
-## Dicionário de Dados
+## Pré-processamento de dados:
+Descreva como os dados foram obtidos e qualquer processo de limpeza ou transformação realizado.
+* Coleta e Ingestão: Selecionaram datasets, integraram múltiplas fontes no BigQuery
+* Limpeza e Transformação: Trataram dados, criaram variáveis derivadas
+* Análise Exploratória: Descobriram padrões, formularam hipóteses
 
-## 
+* Definir o Schema**: Criar as tabelas 
+* Ingerir os Dados**: Inserir os dados brutos fornecidos nas tabelas.
+* Analisar os Dados**: Escrever consultas SQL para responder a perguntas de negócio.
+* Criar uma View**: Construir views para simplificar análises futuras.
+
+## Métodos e técnicas:
+Documente as técnicas e metodologias usadas na análise.
 
 ## Conclusões 
 Apresenta os principais resultados obtidos a partir da análise de dados. Sumariza as conclusões tiradas do projeto, incluindo insights importantes, descobertas relevantes e possíveis 
