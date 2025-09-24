@@ -9,6 +9,8 @@
 ## Perguntas norteadoras do projeto
 
 ## Ferramentas e Tecnologias
+* Looker Studio
+* BigQuery 
 
 ## Fonte de Dados
 * Período dos dados (data x até x)
