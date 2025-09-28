@@ -14,7 +14,7 @@
 
 ## Fonte de Dados
 * Período dos dados: 2014 a 2018
-* link do dataset
+* link do dataset: https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data
 
 ## Como rodar o projeto
 
