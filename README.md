@@ -13,7 +13,7 @@
 * BigQuery 
 
 ## Fonte de Dados
-* Período dos dados (data x até x)
+* Período dos dados: 2014 a 2018
 * link do dataset
 
 ## Como rodar o projeto
