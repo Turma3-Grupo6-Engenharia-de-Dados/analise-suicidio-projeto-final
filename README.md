@@ -1,48 +1,12 @@
-# Título
+# Escolha do dataset
+- Escolhemos o dataset que reúne casos de suicídio no Brasil no período de 2014 a 2018;
+- Apesar dos dados não serem os mais atuais possíveis, verificamos que a base de dados estava bem completa e continha variáveis interessantes para a nossa análise e que podiam trazer insights importantes que correspondem aos nossos objetivos;
+- Não encontramos datasets tão completos quanto esse e que fossem mais recentes, considerando nossos temas de interesse para o projeto;
 
-## Equipe
-
-## Contexto / Sobre o projeto
-
-## Objetivo
-
-## Perguntas norteadoras do projeto
-
-## Ferramentas e Tecnologias
-* Looker Studio
-* BigQuery 
-
-## Fonte de Dados
-* Período dos dados: 2014 a 2018
-* link do dataset: https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data
-
-## Como rodar o projeto
-
-## Estrutura do Repositório
-
-## Pré-processamento de dados:
-Descreva como os dados foram obtidos e qualquer processo de limpeza ou transformação realizado.
-* Coleta e Ingestão: Selecionaram datasets, integraram múltiplas fontes no BigQuery
-* Limpeza e Transformação: Trataram dados, criaram variáveis derivadas
-* Análise Exploratória: Descobriram padrões, formularam hipóteses
-
-* Definir o Schema**: Criar as tabelas 
-* Ingerir os Dados**: Inserir os dados brutos fornecidos nas tabelas.
-* Analisar os Dados**: Escrever consultas SQL para responder a perguntas de negócio.
-* Criar uma View**: Construir views para simplificar análises futuras.
-
-## Métodos e técnicas:
-Documente as técnicas e metodologias usadas na análise.
-
-## Conclusões 
-Apresenta os principais resultados obtidos a partir da análise de dados. Sumariza as conclusões tiradas do projeto, incluindo insights importantes, descobertas relevantes e possíveis 
-* Principais descobertas
-* Insights
-* Recomendações
-  
-## Limitações 
-Identifique e descreva quaisquer limitações ou desafios encontrados durante o projeto. Sugira possíveis próximos passos para estender ou aprimorar o projeto de análise de dados.**
-* Desafios enfrentados
-  
-## Referências
-Se você usou recursos externos, como artigos científico ou tutorial, você pode incluir também como referência.
+# Limpeza e transformação
+- Removi as colunas que continham dados que não são relevantes para a nossa análise no momento;
+- Removi as colunas que continham os dados de data de óbito (DTOBITO) e de data de nascimento (DTNASC) porque o df já possui uma coluna com os dados da idade (idade), que são relevantes para a análise atual;
+- Apesar das informações de escolaridade e de ocupação serem interessantes para a análise atual, optei por remover as colunas (ESC e OCUP) por possuir muitos campos sem informação;
+- Para garantir que o df vai conter apenas casos de suicídio, removi as linhas que tivessem o campo da circunstância do óbito (CIRCOBITO) preenchidos com uma causa diferente de 'suicídio';
+- Como agora todos os dados estão relacionados a causa suicídio, a coluna CIRCOBITO não é mais necessária, portanto optei por removê-la;
+- Com df.min() e df.max() foi possível observar que a base reúne casos de suicídio de pessoas de 0 a 113 anos.
