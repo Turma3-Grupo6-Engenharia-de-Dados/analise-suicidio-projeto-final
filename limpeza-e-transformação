@@ -39,4 +39,10 @@ print(df_lim2)
 print(df['idade'].min())
 print(df['idade'].max())
 
-## - Com df.min() e df.max() foi possível observar que a base reúne casos de suicídio de pessoas de 0 a 113 anos.
+## - Com df.min() e df.max() foi possível observar que a base reúne casos de suicídio de pessoas de 0 a 113 anos;
+
+df= df_lim2
+df.columns = df.columns.str.upper()
+print(df)
+
+## - Padronizei o nome das colunas deixando todos em caixa alta.
