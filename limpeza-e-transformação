@@ -1,0 +1,50 @@
+#1. Importação de bibliotecas
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+from google.colab import files
+uploaded = files.upload()
+
+#2. Leitura e exploração inicial da base
+
+df = pd.read_csv('datasus_suicidio_2014_2018.csv',sep=",",encoding= 'latin-1');
+print(df.head())
+print(df.shape)
+print(df.columns)
+print(df.dtypes)
+
+#3. Limpeza e Transformação
+
+df_lim= df.drop(columns=['DTOBITO','DTNASC','ESTCIV','CODMUNRES','LOCOCOR','ASSISTMED','CAUSABAS','CAUSABAS_O','ESC','OCUP'])
+print(df_lim)
+
+## - Removi as colunas que continham dados que não são relevantes para a nossa análise no momento;
+## - Removi as colunas que continham os dados de data de óbito (DTOBITO) e de data de nascimento (DTNASC) porque o df já possui uma coluna com os dados da idade (idade), que são relevantes para a análise atual;
+## - Apesar das informações de escolaridade e de ocupação serem interessantes para a análise atual, optei por remover as colunas (ESC e OCUP) por possuir muitos campos sem informação;
+
+df = df_lim
+indices_para_remover = df[df['CIRCOBITO'] != 'Suicídio'].index
+df_filtrado = df.drop(indices_para_remover)
+print(df_filtrado)
+
+df = df_filtrado
+df_lim2 = df.drop(columns=['CIRCOBITO'])
+print(df_lim2)
+
+## - Para garantir que o df vai conter apenas casos de suicídio, removi as linhas que tivessem o campo da circunstância do óbito (CIRCOBITO) preenchidos com uma causa diferente de 'suicídio';
+## - Como agora todos os dados estão relacionados a causa suicídio, a coluna CIRCOBITO não é mais necessária, portanto optei por removê-la;
+
+print(df['idade'].min())
+print(df['idade'].max())
+
+## - Com df.min() e df.max() foi possível observar que a base reúne casos de suicídio de pessoas de 0 a 113 anos;
+
+df= df_lim2
+df.columns = df.columns.str.upper()
+print(df)
+
+## - Padronizei o nome das colunas deixando todos em caixa alta.
+
+## link: https://colab.research.google.com/drive/1-XhNYfCZgZyQ65ytmoQjx5ju2qtSoKXz?usp=sharing
