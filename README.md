@@ -14,11 +14,25 @@
 * link Apresentação
 * link Documentação Notion (?)
 
-## 3. Contexto / Sobre o projeto
-pendente
+## 3. Contexto do problema de negócio
+
+O suicídio é uma questão de saúde pública no Brasil, a cada dez minutos, um adolescente comete algum tipo de autolesão ou tenta tirar a própria vida no Brasil.
+
+No mês de Setembro Amarelo (mês dedicado à prevenção do suicídio), a nossa equipe responsável pelas campanhas e estratégias de saúde mental na linha de APS identificou a necessidade de uma abordagem baseada em dados.
+
+A Atenção Primária à Saúde (APS) é a porta de entrada principal de um sistema de saúde, como o SUS, focada na promoção, prevenção, diagnóstico, tratamento e reabilitação de problemas de saúde individuais, familiares e coletivos. A APS prioriza o contato direto e contínuo com a comunidade, atuando de forma abrangente e próxima para atender até 90% das necessidades de saúde da população, agindo sobre os determinantes sociais da saúde e empoderando os indivíduos e comunidades.
+
+No contexto de análise dos dados (2014-2018), as campanhas de prevenção são genéricas e não direcionadas aos grupos de maior risco ou às regiões mais afetadas.
 
 ## 4. Objetivo
-descrever o objetivo
+
+O objetivo deste projeto é transformar dados brutos sobre suicídio no Brasil (2014-2018) em informações claras para apoiar as ações de prevenção da Atenção Primária à Saúde (APS).
+
+A análise busca fornecer um mapa do problema, permitindo que as equipes de saúde possam:
+
+* Identificar os grupos de maior risco (por idade, sexo, raça);
+* Descobrir se há meses ou épocas do ano com mais ocorrências;
+* Focar em recursos, como equipes e campanhas, onde o impacto será maior.
 
 ### 💡 Perguntas norteadoras do projeto
 **1. Existe diferença na taxa de suicídio entre os sexos (masculino e feminino)?**
@@ -71,4 +85,4 @@ Identifique e descreva quaisquer limitações ou desafios encontrados durante o 
 * Desafios enfrentados
   
 ## Referências
-Se você usou recursos externos, como artigos científico ou tutorial, você pode incluir também como referência.
+* [Notícia G1 | Brasil tem uma tentativa de suicídio ou autolesão entre adolescentes a cada 10 minutos](https://g1.globo.com/saude/saude-mental/noticia/2025/09/22/brasil-tem-uma-tentativa-de-suicidio-ou-autolesao-entre-adolescentes-a-cada-10-minutos.ghtml) 
