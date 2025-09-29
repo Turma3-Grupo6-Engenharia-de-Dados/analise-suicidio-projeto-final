@@ -1,26 +1,52 @@
-# Título
+# Análise de Dados: Casos de Suicídio no Brasil 
 
-## Equipe
+## 1. 👥 Equipe
+* Caroline Cortez
+* Carlos Ryan
+* Emerson Oliveira
+* Gisely Karla
+* Laila Guedes
+* Nathalia Kopke
+* Vaneza Magalhães
 
-## Contexto / Sobre o projeto
+## 2. Documentação
+* link Dashboard
+* link Apresentação
+* link Documentação Notion (?)
 
-## Objetivo
+## 3. Contexto / Sobre o projeto
+pendente
 
-## Perguntas norteadoras do projeto
+## 4. Objetivo
+descrever o objetivo
 
-## Ferramentas e Tecnologias
+### 💡 Perguntas norteadoras do projeto
+**1. Existe diferença na taxa de suicídio entre os sexos (masculino e feminino)?**
+
+**2. Há variação na incidência de suicídio relacionada à cor/raça?**
+
+**3. Qual a distribuição de casos por faixa etária, e quais são as idades ou grupos etários de maior frequência?**
+
+**4. Há evidências de sazonalidade? Existe algum mês ou período específico do ano que registra uma frequência ou quantidade mais alta de casos?**
+
+* ADICIONAR MAIS PERGUNTAS
+
+## 5. Ferramentas e Tecnologias
 * Looker Studio
-* BigQuery 
+* BigQuery
+* Python
+* Google Colab
 
-## Fonte de Dados
-* Período dos dados: 2014 a 2018
-* link do dataset: https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data
+## 6. Fonte de Dados
+* [Dataset | Dados de Suicídio no Brasil 2014 a 2018 (Kaggle)](https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data)
+  
+Período dos dados: 2014 a 2018
 
-## Como rodar o projeto
+## 7. Como rodar o projeto
 
-## Estrutura do Repositório
+## 8. Estrutura do Repositório
 
-## Pré-processamento de dados:
+### Pré-processamento de dados:
 Descreva como os dados foram obtidos e qualquer processo de limpeza ou transformação realizado.
 * Coleta e Ingestão: Selecionaram datasets, integraram múltiplas fontes no BigQuery
 * Limpeza e Transformação: Trataram dados, criaram variáveis derivadas
