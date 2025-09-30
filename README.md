@@ -10,3 +10,14 @@
 - Para garantir que o df vai conter apenas casos de suicídio, removi as linhas que tivessem o campo da circunstância do óbito (CIRCOBITO) preenchidos com uma causa diferente de 'suicídio';
 - Como agora todos os dados estão relacionados a causa suicídio, a coluna CIRCOBITO não é mais necessária, portanto optei por removê-la;
 - Com df.min() e df.max() foi possível observar que a base reúne casos de suicídio de pessoas de 0 a 113 anos.
+
+# Análise exploratória 
+A partir da análise realizada, contatou-se haver determinados padrões:
+- A maioria dos casos são com Homens;
+- Há diferenças de idades entre os homens e mulheres;
+- Há uma maior ocorrência de casos em determinados meses do ano;
+A partir da analise, formulou-se as seguintes hipóteses;
+- H1 - Há um maior número de casos entre adolescentes (12 a 18 anos);
+- H2 - O número de casos apresenta um padrão sazonal, variando de acordo com o mês do ano, ou seja, datas comemorativas tedem ter maior número de ocorrências;
+- H3 - A distribuição de idade é diferente entre os grupos do sexo masculino e feminino.
+
