@@ -17,12 +17,12 @@
 
 O suicídio representa um grave e complexo **desafio de saúde pública** no Brasil. Neste cenário, a Atenção Primária à Saúde (APS), como a principal porta de entrada do Sistema Único de Saúde (SUS) e o ponto de contato mais próximo da comunidade, desempenha um **papel fundamental na prevenção**.
 
-No mês de Setembro Amarelo (mês dedicado à prevenção do suicídio), a nossa equipe responsável pelas campanhas e estratégias de saúde mental na linha de APS identificou uma lacuna:
+No mês de **Setembro Amarelo** (mês dedicado à prevenção do suicídio), a nossa equipe responsável pelas campanhas e estratégias de saúde mental na linha de APS identificou uma lacuna:
 * As campanhas de prevenção são, frequentemente, genéricas e não direcionadas aos grupos de maior risco ou às épocas de maior ocorrência de casos.
 
-Nesse sentido, é essencial obter uma visão analítica e detalhada sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
+Nesse sentido, é essencial obter uma **visão analítica e detalhada** sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
 
-Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção ao suicídio e promoção da saúde mental. A análise visa garantir que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
+Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção ao suicídio e promoção da saúde mental. A análise garantirá que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
 
 ## 4. Objetivo
 
@@ -54,8 +54,7 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 
 ## 6. Fonte de Dados
 * [Dataset | Dados de Suicídio no Brasil 2014 a 2018 (Kaggle)](https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data)
-  
-Período dos dados: 2014 a 2018
+* Período dos dados: 2014 a 2018
 
 ## 7. Como rodar o projeto
 
@@ -84,6 +83,7 @@ Apresenta os principais resultados obtidos a partir da análise de dados. Sumari
 ## Limitações 
 Identifique e descreva quaisquer limitações ou desafios encontrados durante o projeto. Sugira possíveis próximos passos para estender ou aprimorar o projeto de análise de dados.**
 * Desafios enfrentados
+* período dos dados (o ideal seria dados mais atuais)
   
 ## Referências
 * [Notícia G1 | Brasil tem uma tentativa de suicídio ou autolesão entre adolescentes a cada 10 minutos](https://g1.globo.com/saude/saude-mental/noticia/2025/09/22/brasil-tem-uma-tentativa-de-suicidio-ou-autolesao-entre-adolescentes-a-cada-10-minutos.ghtml)
