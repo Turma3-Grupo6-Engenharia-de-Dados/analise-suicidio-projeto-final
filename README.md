@@ -45,6 +45,8 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 
 * ADICIONAR MAIS PERGUNTAS
 
+## Metodologia
+
 ## 5. Ferramentas e Tecnologias
 * Looker Studio
 * BigQuery
