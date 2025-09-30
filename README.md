@@ -16,23 +16,26 @@
 
 ## 3. Contexto do problema de negócio
 
-O suicídio é uma questão de saúde pública no Brasil, a cada dez minutos, um adolescente comete algum tipo de autolesão ou tenta tirar a própria vida no Brasil.
+O suicídio representa um grave e complexo **desafio de saúde pública** no Brasil. Neste cenário, a Atenção Primária à Saúde (APS), como a principal porta de entrada do Sistema Único de Saúde (SUS) e o ponto de contato mais próximo da comunidade, desempenha um **papel fundamental na prevenção**.
 
-No mês de Setembro Amarelo (mês dedicado à prevenção do suicídio), a nossa equipe responsável pelas campanhas e estratégias de saúde mental na linha de APS identificou a necessidade de uma abordagem baseada em dados.
+No mês de Setembro Amarelo (mês dedicado à prevenção do suicídio), a nossa equipe responsável pelas campanhas e estratégias de saúde mental na linha de APS identificou uma lacuna:
+* As campanhas de prevenção são, frequentemente, genéricas e não direcionadas aos grupos de maior risco ou às épocas de maior ocorrência de casos.
 
-A Atenção Primária à Saúde (APS) é a porta de entrada principal de um sistema de saúde, como o SUS, focada na promoção, prevenção, diagnóstico, tratamento e reabilitação de problemas de saúde individuais, familiares e coletivos. A APS prioriza o contato direto e contínuo com a comunidade, atuando de forma abrangente e próxima para atender até 90% das necessidades de saúde da população, agindo sobre os determinantes sociais da saúde e empoderando os indivíduos e comunidades.
+Nesse sentido, é essencial obter uma visão analítica e detalhada sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
 
-No contexto de análise dos dados (2014-2018), as campanhas de prevenção são genéricas e não direcionadas aos grupos de maior risco ou às regiões mais afetadas.
+Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção e promoção da saúde mental, justamente porque o problema de negócio é a ausência de uma análise de dados aprofundada que permita à equipe da APS segmentar suas campanhas. 
+
+Sem a compreensão dos padrões demográficos, sazonais e geográficos dos casos de suicídio (no período de 2014-2018), as ações perdem potencial de impacto, e a oportunidade de intervir de forma precisa nos grupos de maior risco é desperdiçada. A análise, portanto, garantirá que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
 
 ## 4. Objetivo
 
-O objetivo deste projeto é transformar dados brutos sobre suicídio no Brasil (2014-2018) em informações claras para apoiar as ações de prevenção da Atenção Primária à Saúde (APS).
+O objetivo deste projeto é transformar dados brutos sobre suicídio no Brasil (2014-2018) em insights para apoiar no planejamento das ações de prevenção da Atenção Primária à Saúde (APS).
 
-A análise busca fornecer um mapa do problema, permitindo que as equipes de saúde possam:
+A análise busca fornecer um mapeamento do problema, permitindo que as equipes de saúde possam:
 
 * Identificar os grupos de maior risco (por idade, sexo, raça);
-* Descobrir se há meses ou épocas do ano com mais ocorrências;
-* Focar em recursos, como equipes e campanhas, onde o impacto será maior.
+* Analisar a sazonalidade dos casos, descobrindo se há meses ou épocas do ano com maior ocorrência;
+* Otimizar a alocação de recursos (equipes e campanhas), focando a intervenção onde o potencial de impacto é maior.
 
 ### 💡 Perguntas norteadoras do projeto
 **1. Existe diferença na taxa de suicídio entre os sexos (masculino e feminino)?**
