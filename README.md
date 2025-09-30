@@ -22,9 +22,7 @@ No mês de Setembro Amarelo (mês dedicado à prevenção do suicídio), a nossa
 
 Nesse sentido, é essencial obter uma visão analítica e detalhada sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
 
-Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção e promoção da saúde mental, justamente porque o problema de negócio é a ausência de uma análise de dados aprofundada que permita à equipe da APS segmentar suas campanhas. 
-
-Sem a compreensão dos padrões demográficos, sazonais e geográficos dos casos de suicídio (no período de 2014-2018), as ações perdem potencial de impacto, e a oportunidade de intervir de forma precisa nos grupos de maior risco é desperdiçada. A análise, portanto, garantirá que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
+Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção ao suicídio e promoção da saúde mental. A análise visa garantir que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
 
 ## 4. Objetivo
 
