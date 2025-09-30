@@ -10,9 +10,8 @@
 * Vaneza Magalhães
 
 ## 2. Documentação
-* link Dashboard
-* link Apresentação
-* link Documentação Notion (?)
+* [Dashboard](https://www.google.com.br)
+* [Apresentação](https://www.google.com.br)
 
 ## 3. Contexto do problema de negócio
 
@@ -53,6 +52,7 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 * BigQuery
 * Python
 * Google Colab
+* Canva
 
 ## 6. Fonte de Dados
 * [Dataset | Dados de Suicídio no Brasil 2014 a 2018 (Kaggle)](https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data)
