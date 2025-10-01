@@ -13,12 +13,12 @@
 
 # Análise exploratória 
 A partir da análise realizada, contatou-se haver determinados padrões:
-- A maioria dos casos são com Homens;
+- A maioria dos casos são com Homens, cerca de 270% acima;
 - Há diferenças de idades entre os homens e mulheres;
 - Há uma maior ocorrência de casos em determinados meses do ano;
 
 A partir da análise, formulou-se as seguintes hipóteses:
 - H1 - Há um maior número de casos entre adolescentes (12 a 18 anos);
 - H2 - O número de casos apresenta um padrão sazonal, variando de acordo com o mês do ano, ou seja, datas comemorativas tedem ter maior número de ocorrências;
-- H3 - A distribuição de idade é diferente entre os grupos do sexo masculino e feminino.
+- H3 - A distribuição de idade é diferente entre os grupos do sexo masculino e feminino, ainda que a mediana entre elas seja proxima.
 
