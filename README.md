@@ -67,7 +67,8 @@ Descreva como os dados foram obtidos e qualquer processo de limpeza ou transform
 * Coleta e Ingestão: Selecionaram datasets, integraram múltiplas fontes no BigQuery
 * Limpeza e Transformação: Trataram dados, criaram variáveis derivadas
 * Análise Exploratória: Descobriram padrões, formularam hipóteses
-
+* Modelagem Estatística: Testaram hipóteses, construíram modelos preditivos
+---
 * Definir o Schema**: Criar as tabelas 
 * Ingerir os Dados**: Inserir os dados brutos fornecidos nas tabelas.
 * Analisar os Dados**: Escrever consultas SQL para responder a perguntas de negócio.
