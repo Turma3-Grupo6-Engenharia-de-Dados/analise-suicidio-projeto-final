@@ -1,6 +1,6 @@
 # Análise de Dados: Casos de Suicídio no Brasil 🎗️
 
-## 1. 👥 Equipe
+## 1. 👥 Equipe ✅
 * Caroline Cortez
 * Carlos Ryan
 * Emerson Oliveira
@@ -9,24 +9,24 @@
 * Nathalia Kopke
 * Vaneza Magalhães
 
-## 2. Documentação
-* [Dashboard](https://www.google.com.br)
-* [Apresentação](https://www.google.com.br)
+## 2. Documentação 
+* [Dashboard](https://lookerstudio.google.com/reporting/babf883d-9361-44b2-ad60-8e4b6103914b)
+* [Apresentação](https://www.google.com.br) - pendente o link correto
 
-## 3. Contexto do problema de negócio
+## 3. Contexto do problema de negócio ✅
 
 O suicídio representa um grave e complexo **desafio de saúde pública** no Brasil. Neste cenário, a Atenção Primária à Saúde (APS), como a principal porta de entrada do Sistema Único de Saúde (SUS) e o ponto de contato mais próximo da comunidade, desempenha um **papel fundamental na prevenção**.
 
-No mês de **Setembro Amarelo** (mês dedicado à prevenção do suicídio), a nossa equipe responsável pelas campanhas e estratégias de saúde mental na linha de APS identificou uma lacuna:
+Nossa consultoria, a **FAST**, foi contratada para atender a uma demanda estratégica da área de saúde mental da APS. Com a aproximação do **Setembro Amarelo** (mês dedicado à prevenção do suicídio), a área de negócio identificou uma lacuna:
 * As campanhas de prevenção são, frequentemente, genéricas e não direcionadas aos grupos de maior risco ou às épocas de maior ocorrência de casos.
+  
+Nesse sentido, a **equipe de dados** da consultoria FAST foi acionada para fornecer uma **visão analítica e detalhada** sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
 
-Nesse sentido, é essencial obter uma **visão analítica e detalhada** sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
+Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção ao suicídio e promoção da saúde mental da APS. A análise garantirá que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
 
-Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção ao suicídio e promoção da saúde mental. A análise garantirá que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
+## 4. Objetivo ✅
 
-## 4. Objetivo
-
-O objetivo deste projeto é transformar dados brutos sobre suicídio no Brasil (2014-2018) em insights para apoiar no planejamento das ações de prevenção da Atenção Primária à Saúde (APS).
+O objetivo deste projeto é transformar dados brutos sobre suicídio no Brasil (2014-2022) em insights para apoiar no planejamento das ações de prevenção da Atenção Primária à Saúde (APS).
 
 A análise busca fornecer um mapeamento do problema, permitindo que as equipes de saúde possam:
 
@@ -43,29 +43,28 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 
 **4. Há evidências de sazonalidade? Existe algum mês ou período específico do ano que registra uma frequência ou quantidade mais alta de casos?**
 
-* ADICIONAR MAIS PERGUNTAS
-
 ## Metodologia
-* Dataset escolhido e justificativa
+* Dataset escolhido e justificativa - pendente
 
-## 5. Ferramentas e Tecnologias
+## 5. Ferramentas e Tecnologias ✅
 * Looker Studio
 * BigQuery
 * Python
 * Google Colab
 * Canva
 
-## 6. Fonte de Dados
-* [Dataset | Dados de Suicídio no Brasil 2014 a 2018 (Kaggle)](https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data)
-* SIM - Sistema de Informação sobre Mortalidade https://pysus.readthedocs.io/pt/latest/databases/SIM.html
-* Período dos dados: 2014 a 2022
+## 6. Fonte de Dados ✅
+* [Databases | SIM - Sistema de Informação sobre Mortalidade (PySUS)](https://pysus.readthedocs.io/pt/latest/databases/SIM.html)
+* [Dataset | SIM - Sistema de Informação sobre Mortalidade (BigQuery](https://console.cloud.google.com/bigquery?inv=1&invt=Ab4K-w&project=t1engenhariadados&ws=!1m4!1m3!3m2!1st1engenhariadados!2sGrupo_3_6_ProjetoFinal)
+* Período: 2014 a 2022
 
 ## 7. Como rodar o projeto
 * pendente*
+  
 ## 8. Estrutura do Repositório
 * pendente*
 
-### 9. Pré-processamento de dados:
+## 9. Pré-processamento de dados:
 Descreva como os dados foram obtidos e qualquer processo de limpeza ou transformação realizado.
 * Coleta e Ingestão: Selecionaram datasets, integraram múltiplas fontes no BigQuery
 * Limpeza e Transformação: Trataram dados, criaram variáveis derivadas
