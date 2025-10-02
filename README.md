@@ -46,6 +46,7 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 * ADICIONAR MAIS PERGUNTAS
 
 ## Metodologia
+* Dataset escolhido e justificativa
 
 ## 5. Ferramentas e Tecnologias
 * Looker Studio
@@ -60,35 +61,37 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 * Período dos dados: 2014 a 2022
 
 ## 7. Como rodar o projeto
-
+* pendente*
 ## 8. Estrutura do Repositório
+* pendente*
 
-### Pré-processamento de dados:
+### 9. Pré-processamento de dados:
 Descreva como os dados foram obtidos e qualquer processo de limpeza ou transformação realizado.
 * Coleta e Ingestão: Selecionaram datasets, integraram múltiplas fontes no BigQuery
 * Limpeza e Transformação: Trataram dados, criaram variáveis derivadas
 * Análise Exploratória: Descobriram padrões, formularam hipóteses
 * Modelagem Estatística: Testaram hipóteses, construíram modelos preditivos
 ---
-* Definir o Schema**: Criar as tabelas 
-* Ingerir os Dados**: Inserir os dados brutos fornecidos nas tabelas.
-* Analisar os Dados**: Escrever consultas SQL para responder a perguntas de negócio.
 * Criar uma View**: Construir views para simplificar análises futuras.
 
-## Métodos e técnicas:
-Documente as técnicas e metodologias usadas na análise.
+## 10. Métodos e técnicas:
+* Documente as técnicas e metodologias usadas na análise.
 
-## Conclusões 
+## 11. Conclusões 
 Apresenta os principais resultados obtidos a partir da análise de dados. Sumariza as conclusões tiradas do projeto, incluindo insights importantes, descobertas relevantes e possíveis 
 * Principais descobertas
-* Insights
-* Recomendações
+* Insights 
+* Recomendações práticas baseadas nos insights
+* Impacto esperado para o negócio
+* Como a solução pode ser aplicada
   
-## Limitações 
+## 12. Limitações 
 Identifique e descreva quaisquer limitações ou desafios encontrados durante o projeto. Sugira possíveis próximos passos para estender ou aprimorar o projeto de análise de dados.**
-* Desafios enfrentados
-* período dos dados (o ideal seria dados mais atuais)
+* Principais desafios enfrentados e como foram superados
+* Principais limitações identificadas
+* Lições aprendidas durante o projeto
   
-## Referências
+## 13. Referências
 * [Notícia G1 | Brasil tem uma tentativa de suicídio ou autolesão entre adolescentes a cada 10 minutos](https://g1.globo.com/saude/saude-mental/noticia/2025/09/22/brasil-tem-uma-tentativa-de-suicidio-ou-autolesao-entre-adolescentes-a-cada-10-minutos.ghtml)
 * [OPAS | Atenção Primária à Saúde](https://www.paho.org/pt/topicos/atencao-primaria-saude)
+* [PySUS | Base de Dados - Sistema de Informação sobre Mortalidade (SIM)](https://pysus.readthedocs.io/pt/latest/index.html)
