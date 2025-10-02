@@ -4,18 +4,22 @@
 * [Dashboard](https://lookerstudio.google.com/reporting/babf883d-9361-44b2-ad60-8e4b6103914b)
 * [Apresentação](https://www.google.com.br) - pendente o link correto
 
-## 2. Contexto do problema de negócio 
+# 2. Quem somos?
+A **Consultoria Faster** é especializada em transformar grandes volumes de dados em **inteligência estratégica com agilidade**. 
+Nossa missão é capacitar nossos clientes a tomarem decisões mais rápidas e informadas, agindo como uma ponte entre a complexidade dos dados e a necessidade de ação imediata do negócio.
+
+## 3. Contexto do problema de negócio 
 
 O suicídio representa um grave e complexo **desafio de saúde pública** no Brasil. Neste cenário, a Atenção Primária à Saúde (APS), como a principal porta de entrada do Sistema Único de Saúde (SUS) e o ponto de contato mais próximo da comunidade, desempenha um **papel fundamental na prevenção**.
 
 A nossa consultoria, **Faster**, foi contratada para atender a uma demanda estratégica da área de saúde mental da APS. Com a aproximação do **Setembro Amarelo** (mês dedicado à prevenção do suicídio), a área de negócio identificou uma lacuna:
 * As campanhas de prevenção são, frequentemente, genéricas e não direcionadas aos grupos de maior risco ou às épocas de maior ocorrência de casos.
   
-Nesse sentido, a **equipe de dados** da consultoria Faster foi acionada para fornecer uma **visão analítica e detalhada** sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
+Nesse sentido, a **equipe de analytics** da consultoria Faster foi acionada para fornecer uma **visão analítica e detalhada** sobre a distribuição, os padrões e os fatores associados aos casos de suicídio no Brasil.
 
 Este projeto de análise de dados visa nortear o planejamento estratégico das ações de prevenção ao suicídio e promoção da saúde mental da APS. A análise garantirá que os recursos sejam aplicados de forma eficaz e direcionada, maximizando o impacto da APS onde a necessidade é maior.
 
-## 3. Objetivo 
+## 4. Objetivo 
 
 O objetivo deste projeto é transformar dados brutos sobre suicídio no Brasil (2014-2022) em insights para apoiar no planejamento das ações de prevenção da Atenção Primária à Saúde (APS).
 
@@ -34,29 +38,29 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 
 **4. Há evidências de sazonalidade? Existe algum mês ou período específico do ano que registra uma frequência ou quantidade mais alta de casos?**
 
-## 4. Metodologia
+## 5. Metodologia
 * Escolhemos o dataset que reúne casos de suicídio no Brasil no período de 2014 a 2022;
 * Apesar dos dados não serem os mais atuais, verificamos que a base de dados estava bem completa e continha variáveis interessantes para a nossa análise e que podiam trazer insights importantes que correspondem aos nossos objetivos.
 
-## 5. Ferramentas e Tecnologias 
+## 6. Ferramentas e Tecnologias 
 * Looker Studio
 * BigQuery
 * Python
 * Google Colab
 * Canva
 
-## 6. Fonte de Dados 
+## 7. Fonte de Dados 
 * [Databases | SIM - Sistema de Informação sobre Mortalidade (PySUS)](https://pysus.readthedocs.io/pt/latest/databases/SIM.html)
 * [Dataset | SIM - Sistema de Informação sobre Mortalidade (BigQuery)](https://console.cloud.google.com/bigquery?inv=1&invt=Ab4K-w&project=t1engenhariadados&ws=!1m4!1m3!3m2!1st1engenhariadados!2sGrupo_3_6_ProjetoFinal)
 * Período: 2014 a 2022
 
-## 7. Como rodar o projeto
+## 8. Como rodar o projeto
 * pendente*
   
-## 8. Estrutura do Repositório
+## 9. Estrutura do Repositório
 * pendente*
 
-## 9. Pré-processamento de dados:
+## 10. Pré-processamento de dados:
 
 ### **Ingestão e Preparação de Dados** 
 O código e os resultados vêm de um projeto de ETL (Extract, Transform, Load) focado na ingestão e preparação de dados de mortalidade do Sistema de Informação sobre Mortalidade (SIM), disponibilizados pelo DATASUS
@@ -102,7 +106,7 @@ O projeto utiliza a **biblioteca PySUS** para automatizar o download e processam
 3. **Raça/Cor:** Comparando com a raça/cor de referência (branca), observamos que os fatores multiplicativos para as outras categorias (parda, preta, indígena) são **menores que 1**. Isso sugere que, controlando pelas outras variáveis, esses grupos têm um número esperado de casos menor do que o grupo de referência (brancos). **Novamente, é crucial lembrar que esta é uma análise de contagem, não de taxas**. A população branca é maior no Brasil, o que influencia a contagem. O resultado do modelo aqui reflete a contagem absoluta de casos, não o risco por habitante.
 4. **Faixa Etária:** O gráfico mostra que, em comparação com a faixa de 0-9 anos (referência), todas as outras faixas etárias têm um fator multiplicativo **extremamente elevado**. Os picos ocorrem nas faixas de **20-29 e 30-39 anos**, confirmando que essas são as idades com a maior contagem esperada de casos. Após os 40 anos, o fator começa a diminuir, mas permanece muito acima da linha de referência até as idades mais avançadas.
 
-## 10. Conclusões 
+## 11. Conclusões 
 
 ### 💡Insights
 *	A distribuição por sexo revela uma **disparidade significativa**, **com 78,4%** dos casos de suicídio no período analisado ocorrendo entre homens. Este é um padrão **consistente em todo o Brasil** e está alinhado com o "paradoxo de gênero no suicídio".
@@ -142,14 +146,14 @@ A solução da Faster fornece as seguintes ferramentas e o conhecimento estraté
 *	**Ferramenta de monitoramento:** A APS pode usar o dashboard desenvolvido da consultoria para acompanhar a tendência em sua região e responder rapidamente a aumentos inesperados no número de casos.
 *	**Base para análises futuras:** A análise comparativa entre estados e a necessidade de calcular as taxas de suicídio por 100 mil habitantes são o ponto de partida para investigações futuras mais aprofundadas sobre fatores contextuais (crises econômicas, desastres, etc).
 
-## 11. Limitações 
+## 12. Limitações 
 * O principal desafio que enfrentamos foi no começo, tínhamos um período de análise menor (2014 a 2018), mas trabalhando em equipe conseguimos estender o período para 2014 a 2022, o que nos deu uma visão muito mais robusta em relação aos dados.
 * O tempo de desenvolvimento do projeto também foi outro desafio, nos alinhamos e priorizamos as etapas para garantir a entrega, o que nos ensinou muito sobre planejamento e organização.
 * A principal limitação que encontramos foi que os dados mais atuais (2023 e 2024) ainda não estavam disponíveis ou consolidados nas bases do DATASUS. Por isso, a análise se baseou em dados históricos até 2022. 
 * Aprendemos que **saber por onde começar e priorizar as perguntas norteadoras do projeto** foi essencial e nos ajudou muito. Isso facilitou o desenvolvimento das próximas etapas e do próprio dashboard, garantindo que todo o trabalho estivesse alinhado aos objetivos da APS.
 * Para os próximos passos, queremos obter as bases de dados mais atuais (2023, 2024 e 2025) assim que estiverem disponíveis e integrá-las ao nosso dashboard. Isso é fundamental para a APS ter uma visão em tempo quase real das tendências.
 
-## 12. 👥 Equipe
+## 13. 👥 Equipe
 * Caroline Cortez
 * Carlos Ryan
 * Emerson Oliveira
@@ -158,7 +162,7 @@ A solução da Faster fornece as seguintes ferramentas e o conhecimento estraté
 * Nathalia Kopke
 * Vaneza Magalhães
   
-## 🔗 13. Referências
+## 🔗 14. Referências
 * [Notícia G1 | Brasil tem uma tentativa de suicídio ou autolesão entre adolescentes a cada 10 minutos](https://g1.globo.com/saude/saude-mental/noticia/2025/09/22/brasil-tem-uma-tentativa-de-suicidio-ou-autolesao-entre-adolescentes-a-cada-10-minutos.ghtml)
 * [OPAS | Atenção Primária à Saúde](https://www.paho.org/pt/topicos/atencao-primaria-saude)
 * [PySUS | Base de Dados - Sistema de Informação sobre Mortalidade (SIM)](https://pysus.readthedocs.io/pt/latest/index.html)
