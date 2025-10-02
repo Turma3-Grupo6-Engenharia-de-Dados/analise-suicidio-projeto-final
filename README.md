@@ -4,7 +4,7 @@
 * [Dashboard](https://lookerstudio.google.com/reporting/babf883d-9361-44b2-ad60-8e4b6103914b)
 * [Apresentação](https://www.google.com.br) - pendente o link correto
 
-# 2. Quem somos?
+## 2. Quem somos?
 A **Consultoria Faster** é especializada em transformar grandes volumes de dados em **inteligência estratégica com agilidade**. 
 Nossa missão é capacitar nossos clientes a tomarem decisões mais rápidas e informadas, agindo como uma ponte entre a complexidade dos dados e a necessidade de ação imediata do negócio.
 
