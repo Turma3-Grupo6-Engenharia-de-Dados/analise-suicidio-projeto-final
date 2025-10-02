@@ -56,6 +56,7 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 
 ## 6. Fonte de Dados
 * [Dataset | Dados de Suicídio no Brasil 2014 a 2018 (Kaggle)](https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018/data)
+* SIM - Sistema de Informação sobre Mortalidade https://pysus.readthedocs.io/pt/latest/databases/SIM.html
 * Período dos dados: 2014 a 2018
 
 ## 7. Como rodar o projeto
