@@ -136,11 +136,11 @@ O impacto principal é a transformação de campanhas genéricas em ações estr
 *	**Resposta proativa:** O monitoramento contínuo dos dados permite que a APS **antecipe tendências e responda rapidamente a picos de casos**, fortalecendo as políticas de saúde mental e a prevenção em todo o país.
 
 ### 🎯Como a solução pode ser aplicada? 
-A solução da Faster fornece as seguintes ferramentas e o conhecimento estratégico necessários para a implementação ações recomendadas:
+A solução da Faster fornece as seguintes ferramentas e o conhecimento estratégico necessário para a implementação das ações recomendadas:
 *	**Direcionamento da comunicação:** Os insights fornecidos (ex: foco na masculinidade, linguagem para jovens) são o **novo briefing** para as campanhas de Setembro Amarelo e anuais.
 *	**Revisão de protocolos:** As recomendações (ex: triagem de saúde mental em consultas de rotina masculinas) devem ser **integradas aos protocolos de atendimento da APS**.
-*	**Ferramenta de Monitoramento:** A APS pode usar o dashboard desenvolvido da consultoria para acompanhar a tendência em sua região e responder rapidamente a aumentos inesperados no número de casos.
-*	**Base para Análises Futuras:** A análise comparativa entre estados e a necessidade de calcular as taxas de suicídio por 100 mil habitantes são o ponto de partida para investigações futuras mais aprofundadas sobre fatores contextuais (crises econômicas, desastres, etc).
+*	**Ferramenta de monitoramento:** A APS pode usar o dashboard desenvolvido da consultoria para acompanhar a tendência em sua região e responder rapidamente a aumentos inesperados no número de casos.
+*	**Base para análises futuras:** A análise comparativa entre estados e a necessidade de calcular as taxas de suicídio por 100 mil habitantes são o ponto de partida para investigações futuras mais aprofundadas sobre fatores contextuais (crises econômicas, desastres, etc).
 
 ## 11. Limitações 
 * O principal desafio que enfrentamos foi no começo, tínhamos um período de análise menor (2014 a 2018), mas trabalhando em equipe conseguimos estender o período para 2014 a 2022, o que nos deu uma visão muito mais robusta em relação aos dados.
