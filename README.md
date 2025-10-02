@@ -1,4 +1,4 @@
-# Análise de Dados: Casos de Suicídio no Brasil 
+# Análise de Dados: Casos de Suicídio no Brasil 🎗️
 
 ## 1. 👥 Equipe
 * Caroline Cortez
