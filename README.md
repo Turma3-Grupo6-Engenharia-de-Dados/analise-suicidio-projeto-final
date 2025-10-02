@@ -35,8 +35,8 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 **4. Há evidências de sazonalidade? Existe algum mês ou período específico do ano que registra uma frequência ou quantidade mais alta de casos?**
 
 ## 4. Metodologia
-* Escolhemos o dataset que reúne casos de suicídio no Brasil no período de 2014 a 2022
-* Apesar dos dados não serem os mais atuais, verificamos que a base de dados estava bem completa e continha variáveis interessantes para a nossa análise e que podiam trazer insights importantes que correspondem aos nossos objetivos
+* Escolhemos o dataset que reúne casos de suicídio no Brasil no período de 2014 a 2022;
+* Apesar dos dados não serem os mais atuais, verificamos que a base de dados estava bem completa e continha variáveis interessantes para a nossa análise e que podiam trazer insights importantes que correspondem aos nossos objetivos.
 
 ## 5. Ferramentas e Tecnologias 
 * Looker Studio
@@ -58,19 +58,19 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 
 ## 9. Pré-processamento de dados:
 
-### **Ingestão e Preparação de Dados de Mortalidade no Brasil (2014-2022)** 
+### **Ingestão e Preparação de Dados** 
 O código e os resultados vêm de um projeto de ETL (Extract, Transform, Load) focado na ingestão e preparação de dados de mortalidade do Sistema de Informação sobre Mortalidade (SIM), disponibilizados pelo DATASUS
 O objetivo é criar um conjunto de dados unificado, limpo e pronto para análise, abrangendo o período de 2014 a 2022.
 
 O projeto utiliza a **biblioteca PySUS** para automatizar o download e processamento dos dados do DATASUS. O *fluxo de trabalho* principal está dividido em duas etapas:
 
-**▫️Ingestão e Filtragem Anual:** 
-* O script baixa os dados de óbitos para cada ano, de 2014 a 2022, para todos os estados brasileiros
-* Em seguida, ele seleciona apenas as colunas essenciais para a análise (ESTADO, ANO, TIPOBITO, IDADE, SEXO, RACACOR, ESTCIV, ESC2010, LOCOCOR, CAUSABAS, e CIRCOBITO) e salva cada ano em um arquivo CSV separado
+**▫️Ingestão e Filtragem Anual** 
+* O script baixa os dados de óbitos para cada ano, de 2014 a 2022, para todos os estados brasileiros;
+* Em seguida, ele seleciona apenas as colunas essenciais para a análise (ESTADO, ANO, TIPOBITO, IDADE, SEXO, RACACOR, ESTCIV, ESC2010, LOCOCOR, CAUSABAS, e CIRCOBITO) e salva cada ano em um arquivo CSV separado.
 
-**▫️Unificação e Limpeza Final:** 
-* Na etapa final, todos os arquivos CSV anuais são lidos e combinados em um único DataFrame. Este DataFrame unificado passa por uma limpeza rigorosa, onde são aplicados filtros específicos para casos de interesse, e a coluna de idade é transformada para um formato numérico consistente
-* O resultado é um arquivo CSV final que foi carregado ao banco de dados BigQuery e que pode ser usado para análise de dados
+**▫️Unificação e Limpeza Final** 
+* Na etapa final, todos os arquivos CSV anuais são lidos e combinados em um único DataFrame. Este DataFrame unificado passa por uma limpeza rigorosa, onde são aplicados filtros específicos para casos de interesse, e a coluna de idade é transformada para um formato numérico consistente;
+* O resultado é um arquivo CSV final que foi carregado ao banco de dados BigQuery e que pode ser usado para análise de dados.
 
 ### Análise Exploratória
 ▫️Com base nas perguntas norteadoras do projeto e em pesquisas sobre o tema, formulamos as seguintes hipóteses para guiar a análise exploratória dos dados:
@@ -83,7 +83,7 @@ O projeto utiliza a **biblioteca PySUS** para automatizar o download e processam
 
 **Regressão de Poisson**
 
-▫️A regressão de Poisson nos ajuda a entender o impacto de cada variável no número esperado de casos de suicídio, mantendo as outras variáveis constantes. O "Fator Multiplicativo" (ou Razão de Taxa de Incidência - IRR) nos diz o quanto a contagem de suicídios é multiplicada para cada categoria, em comparação com uma categoria de referência
+▫️A regressão de Poisson nos ajuda a entender o impacto de cada variável no número esperado de casos de suicídio, mantendo as outras variáveis constantes. O "Fator Multiplicativo" (ou Razão de Taxa de Incidência - IRR) nos diz o quanto a contagem de suicídios é multiplicada para cada categoria, em comparação com uma categoria de referência.
 * Linha de Referência (vermelha em x=1): Se um ponto e seu intervalo de confiança estão à direita desta linha, a categoria tem um número esperado de casos maior do que a referência. Se estiver à esquerda, o número esperado é menor. Se o intervalo de confiança cruza a linha, a diferença pode não ser estatisticamente significativa.
 
 <div align="center">
@@ -137,12 +137,13 @@ A solução da Faster fornece as seguintes ferramentas e o conhecimento estraté
 *	**Base para Análises Futuras:** A análise comparativa entre estados e a necessidade de calcular as taxas de suicídio por 100 mil habitantes são o ponto de partida para investigações futuras mais aprofundadas sobre fatores contextuais (crises econômicas, desastres, etc).
 
 ## 11. Limitações 
-Identifique e descreva quaisquer limitações ou desafios encontrados durante o projeto. Sugira possíveis próximos passos para estender ou aprimorar o projeto de análise de dados.**
-* Principais desafios enfrentados e como foram superados - Começamos com um período menor e depois conseguimos pegar um período maior para a nossa análise dos dados de suicídio.
-* Principais limitações identificadas - Pouco tempo para poder aprimorar o projeto 
-* Lições aprendidas durante o projeto -
+* O principal desafio que enfrentamos foi no começo, tínhamos um período de análise menor (2014 a 2018), mas trabalhando em equipe conseguimos estender o período para 2014 a 2022, o que nos deu uma visão muito mais robusta em relação aos dados.
+* O tempo de desenvolvimento do projeto também foi outro desafio, nos alinhamos e priorizamos as etapas para garantir a entrega, o que nos ensinou muito sobre planejamento e organização.
+* A principal limitação que encontramos foi que os dados mais atuais (2023 e 2024) ainda não estavam disponíveis ou consolidados nas bases do DATASUS. Por isso, a análise se baseou em dados históricos até 2022. 
+* Aprendemos que **saber por onde começar e priorizar as perguntas norteadoras do projeto** foi essencial e nos ajudou muito. Isso facilitou o desenvolvimento das próximas etapas e do próprio dashboard, garantindo que todo o trabalho estivesse alinhado aos objetivos da APS.
+* Para os próximos passos, queremos obter as bases de dados mais atuais (2023, 2024 e 2025) assim que estiverem disponíveis e integrá-las ao nosso dashboard. Isso é fundamental para a APS ter uma visão em tempo quase real das tendências.
 
-## 12. 👥 Equipe 
+## 12. 👥 Equipe
 * Caroline Cortez
 * Carlos Ryan
 * Emerson Oliveira
