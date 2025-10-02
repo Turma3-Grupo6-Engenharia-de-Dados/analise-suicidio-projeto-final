@@ -96,6 +96,12 @@ O projeto utiliza a **biblioteca PySUS** para automatizar o download e processam
   <img src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t39.30808-6/556676717_24562451406781990_6586301673927646430_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=e4hHy0t0VlkQ7kNvwFR6SL2&_nc_oc=Adk4xehG8ZqJdJVMxqyScUIkgENzPQhArsVfrtCYmaG78VvQVF6Vc8UA3FS_pstMWMkGjFDMXAsXwzy8wh99Ni0m&_nc_zt=23&_nc_ht=scontent.fcgh2-1.fna&_nc_gid=oYkq93xv4xnmMV0y-QYczQ&oh=00_AfYph9M0k6I_reaLN8sVEBk5bDsglO8SgNKTgE87upenpg&oe=68E48EDD" alt="Impacto de Raça/Cor no Número de Casos vs. Categoria de Referência">
 </div>
 
+▫️ Principais insights do Modelo
+1. **Ano:** O gráfico mostra um **aumento progressivo** no fator multiplicativo ao longo dos anos, em comparação com o ano de referência (2014). Isso confirma a tendência de crescimento no número de casos que já havíamos observado na análise exploratória. Por exemplo, o ano de 2022 tem um fator multiplicativo significativamente maior que 1, indicando um aumento no número de casos em relação a 2014, mesmo controlando por outras variáveis.
+2. **Sexo:** O fator multiplicativo para o sexo **Masculino ('M')** é substancialmente maior que 1, em comparação com o sexo Feminino (referência). Isso significa que, mesmo controlando por ano, raça e faixa etária, o número esperado de suicídios para homens é várias vezes maior do que para mulheres. Este é um dos fatores com maior poder explicativo no modelo.
+3. **Raça/Cor:** Comparando com a raça/cor de referência (branca), observamos que os fatores multiplicativos para as outras categorias (parda, preta, indígena) são **menores que 1**. Isso sugere que, controlando pelas outras variáveis, esses grupos têm um número esperado de casos menor do que o grupo de referência (brancos). **Novamente, é crucial lembrar que esta é uma análise de contagem, não de taxas**. A população branca é maior no Brasil, o que influencia a contagem. O resultado do modelo aqui reflete a contagem absoluta de casos, não o risco por habitante.
+4. **Faixa Etária:** O gráfico mostra que, em comparação com a faixa de 0-9 anos (referência), todas as outras faixas etárias têm um fator multiplicativo **extremamente elevado**. Os picos ocorrem nas faixas de **20-29 e 30-39 anos**, confirmando que essas são as idades com a maior contagem esperada de casos. Após os 40 anos, o fator começa a diminuir, mas permanece muito acima da linha de referência até as idades mais avançadas.
+
 ## 10. Conclusões 
 
 ### 💡Insights
