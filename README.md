@@ -6,7 +6,7 @@
 
 ## 2. Quem somos?
 A **Consultoria Faster** é especializada em transformar grandes volumes de dados em **inteligência estratégica com agilidade**. 
-Nossa missão é capacitar nossos clientes a tomarem decisões mais rápidas e informadas, agindo como uma ponte entre a complexidade dos dados e a necessidade de ação imediata do negócio.
+Nossa missão é capacitar nossos clientes a tomarem decisões mais rápidas, agindo como uma ponte entre a complexidade dos dados e a necessidade de ação imediata do negócio.
 
 ## 3. Contexto do problema de negócio 
 
