@@ -1,7 +1,7 @@
 # Análise de Dados: Casos de Suicídio no Brasil 🎗️
 
 ## 1. Documentação 
-* [Dashboard](https://lookerstudio.google.com/reporting/babf883d-9361-44b2-ad60-8e4b6103914b)
+* [Dashboard](https://lookerstudio.google.com/reporting/538ab89f-e128-46b2-8699-f593a7d0730b)
 * [Apresentação](https://www.google.com.br) - pendente o link correto
 
 ## 2. Quem somos?
@@ -54,13 +54,7 @@ A análise busca fornecer um mapeamento do problema, permitindo que as equipes d
 * [Dataset | SIM - Sistema de Informação sobre Mortalidade (BigQuery)](https://console.cloud.google.com/bigquery?inv=1&invt=Ab4K-w&project=t1engenhariadados&ws=!1m4!1m3!3m2!1st1engenhariadados!2sGrupo_3_6_ProjetoFinal)
 * Período: 2014 a 2022
 
-## 8. Como rodar o projeto
-* pendente*
-  
-## 9. Estrutura do Repositório
-* pendente*
-
-## 10. Pré-processamento de dados:
+## 8. Pré-processamento de dados:
 
 ### **Ingestão e Preparação de Dados** 
 O código e os resultados vêm de um projeto de ETL (Extract, Transform, Load) focado na ingestão e preparação de dados de mortalidade do Sistema de Informação sobre Mortalidade (SIM), disponibilizados pelo DATASUS
@@ -106,7 +100,7 @@ O projeto utiliza a **biblioteca PySUS** para automatizar o download e processam
 3. **Raça/Cor:** Comparando com a raça/cor de referência (branca), observamos que os fatores multiplicativos para as outras categorias (parda, preta, indígena) são **menores que 1**. Isso sugere que, controlando pelas outras variáveis, esses grupos têm um número esperado de casos menor do que o grupo de referência (brancos). **Novamente, é crucial lembrar que esta é uma análise de contagem, não de taxas**. A população branca é maior no Brasil, o que influencia a contagem. O resultado do modelo aqui reflete a contagem absoluta de casos, não o risco por habitante.
 4. **Faixa Etária:** O gráfico mostra que, em comparação com a faixa de 0-9 anos (referência), todas as outras faixas etárias têm um fator multiplicativo **extremamente elevado**. Os picos ocorrem nas faixas de **20-29 e 30-39 anos**, confirmando que essas são as idades com a maior contagem esperada de casos. Após os 40 anos, o fator começa a diminuir, mas permanece muito acima da linha de referência até as idades mais avançadas.
 
-## 11. Conclusões 
+## 9. Conclusões 
 
 ### 💡Insights
 *	A distribuição por sexo revela uma **disparidade significativa**, **com 78,4%** dos casos de suicídio no período analisado ocorrendo entre homens. Este é um padrão **consistente em todo o Brasil** e está alinhado com o "paradoxo de gênero no suicídio".
@@ -139,21 +133,21 @@ O impacto principal é a transformação de campanhas genéricas em ações estr
 *	**Melhoria na qualidade da intervenção:** Os profissionais da APS estarão **mais bem preparados** para oferecer um cuidado **mais eficaz e equitativo**, cientes das múltiplas camadas de vulnerabilidade (gênero, raça/cor e idade).
 *	**Resposta proativa:** O monitoramento contínuo dos dados permite que a APS **antecipe tendências e responda rapidamente a picos de casos**, fortalecendo as políticas de saúde mental e a prevenção em todo o país.
 
-### 🎯Como a solução pode ser aplicada? 
+### 🎯 Como a solução pode ser aplicada? 
 A solução da Faster fornece as seguintes ferramentas e o conhecimento estratégico necessário para a implementação das ações recomendadas:
 *	**Direcionamento da comunicação:** Os insights fornecidos (ex: foco na masculinidade, linguagem para jovens) são o **novo briefing** para as campanhas de Setembro Amarelo e anuais.
 *	**Revisão de protocolos:** As recomendações (ex: triagem de saúde mental em consultas de rotina masculinas) devem ser **integradas aos protocolos de atendimento da APS**.
 *	**Ferramenta de monitoramento:** A APS pode usar o dashboard desenvolvido da consultoria para acompanhar a tendência em sua região e responder rapidamente a aumentos inesperados no número de casos.
 *	**Base para análises futuras:** A análise comparativa entre estados e a necessidade de calcular as taxas de suicídio por 100 mil habitantes são o ponto de partida para investigações futuras mais aprofundadas sobre fatores contextuais (crises econômicas, desastres, etc).
 
-## 12. Limitações 
+## 10. Limitações 
 * O principal desafio que enfrentamos foi no começo, tínhamos um período de análise menor (2014 a 2018), mas trabalhando em equipe conseguimos estender o período para 2014 a 2022, o que nos deu uma visão muito mais robusta em relação aos dados.
 * O tempo de desenvolvimento do projeto também foi outro desafio, nos alinhamos e priorizamos as etapas para garantir a entrega, o que nos ensinou muito sobre planejamento e organização.
 * A principal limitação que encontramos foi que os dados mais atuais (2023 e 2024) ainda não estavam disponíveis ou consolidados nas bases do DATASUS. Por isso, a análise se baseou em dados históricos até 2022. 
 * Aprendemos que **saber por onde começar e priorizar as perguntas norteadoras do projeto** foi essencial e nos ajudou muito. Isso facilitou o desenvolvimento das próximas etapas e do próprio dashboard, garantindo que todo o trabalho estivesse alinhado aos objetivos da APS.
 * Para os próximos passos, queremos obter as bases de dados mais atuais (2023, 2024 e 2025) assim que estiverem disponíveis e integrá-las ao nosso dashboard. Isso é fundamental para a APS ter uma visão em tempo quase real das tendências.
 
-## 13. 👥 Equipe
+## 11. 👥 Equipe
 * Caroline Cortez
 * Carlos Ryan
 * Emerson Oliveira
@@ -162,7 +156,9 @@ A solução da Faster fornece as seguintes ferramentas e o conhecimento estraté
 * Nathalia Kopke
 * Vaneza Magalhães
   
-## 🔗 14. Referências
+## 🔗 12. Referências
 * [Notícia G1 | Brasil tem uma tentativa de suicídio ou autolesão entre adolescentes a cada 10 minutos](https://g1.globo.com/saude/saude-mental/noticia/2025/09/22/brasil-tem-uma-tentativa-de-suicidio-ou-autolesao-entre-adolescentes-a-cada-10-minutos.ghtml)
 * [OPAS | Atenção Primária à Saúde](https://www.paho.org/pt/topicos/atencao-primaria-saude)
 * [PySUS | Base de Dados - Sistema de Informação sobre Mortalidade (SIM)](https://pysus.readthedocs.io/pt/latest/index.html)
+* [Looker Studio: curso completo](https://www.youtube.com/watch?v=CX-B8EKuF-4)
+* [Boletim Epidemiológico | Mortalidade por suicídio e notificações de lesões autoprovocadas no Brasil](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2021/boletim_epidemiologico_svs_33_final.pdf)
