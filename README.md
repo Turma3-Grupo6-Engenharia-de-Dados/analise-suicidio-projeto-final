@@ -2,7 +2,7 @@
 
 ## 1. Documentação 
 * [Dashboard](https://lookerstudio.google.com/reporting/538ab89f-e128-46b2-8699-f593a7d0730b)
-* [Apresentação]([https://www.google.com.br](https://www.canva.com/design/DAG0N0_Sq_k/aUq7RJL1LzAMzqj8YphcAQ/edit).
+* [Apresentação](https://www.canva.com/design/DAG0N0_Sq_k/aUq7RJL1LzAMzqj8YphcAQ/edit)
 
 ## 2. Quem somos?
 A **Consultoria Faster** é especializada em transformar grandes volumes de dados em **inteligência estratégica com agilidade**. 
